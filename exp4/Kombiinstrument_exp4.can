@@ -1,0 +1,19 @@
+/*@!Encoding:1252*/
+//Hassan al-faiz (hb17031)_exp4
+includes
+{
+}
+variables
+{
+  message TIM tmp_TIM;  //calling for TIM
+}
+on sysvar sysvar::Status_Warnblinker;
+{
+  tmp_TIM.Turnlnd_LT_ON = 1;  //Signal defining left side
+  tmp_TIM.Turnlnd_RT_ON = 1;  //Signal defining right side
+}
+
+on timer_680ms;
+{
+  output(tmp_TIM);  //timer in millisecond
+}

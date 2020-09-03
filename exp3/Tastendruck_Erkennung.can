@@ -1,0 +1,28 @@
+/*@!Encoding:1252*/
+variables
+{
+    int counter;        
+    char Warnblinker_state;       
+    mstimer timer_340ms;
+}
+
+on signal EF_Sw_Psd     
+{
+   
+    
+}
+
+
+void Warnblinker_on (void)
+{
+
+}
+void Warnblinker_off (void)
+{
+ 
+}
+
+on timer timer_340ms
+{
+
+}

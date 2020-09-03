@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=13.0.118.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=13.0.118.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="Panel1">
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.118.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl1" Children="Controls" ControlName="Static Text 1">
+      <Property Name="Name">StaticTextControl1</Property>
+      <Property Name="Size">163, 25</Property>
+      <Property Name="Location">202, 50</Property>
+      <Property Name="Font">Microsoft Sans Serif, 16pt</Property>
+      <Property Name="Text">Drehratensensor</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.118.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl4" Children="Controls" ControlName="Input/Output Box 4">
+      <Property Name="Name">TextBoxControl4</Property>
+      <Property Name="Size">289, 22</Property>
+      <Property Name="Location">146, 168</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">9</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;2;-4.1768;4.176618775</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">Querbeschleunigung_in_Y_Richtung:</Property>
+      <Property Name="TextForeColor">Blue</Property>
+      <Property Name="DescriptionSize">170, 18</Property>
+      <Property Name="SymbolConfiguration">6;2;Drehratensensor;;Drehratennachrig_1;Querbeschleunigung_in_Y_Richtung;1;CAN;;-1;;;;</Property>
+      <Property Name="TabIndex">6</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.118.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl3" Children="Controls" ControlName="Input/Output Box 3">
+      <Property Name="Name">TextBoxControl3</Property>
+      <Property Name="Size">289, 22</Property>
+      <Property Name="Location">146, 145</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">9</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;2;-4.1768;4.176618775</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">Querbeschleunigung_in_X_Richtung:</Property>
+      <Property Name="TextForeColor">Red</Property>
+      <Property Name="DescriptionSize">170, 18</Property>
+      <Property Name="SymbolConfiguration">6;2;Drehratensensor;;Drehratennachrig_2;Querbeschleunigung_in_X_Richtung;1;CAN;;-1;;;;</Property>
+      <Property Name="TabIndex">5</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.118.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl1" Children="Controls" ControlName="Input/Output Box 1">
+      <Property Name="Name">TextBoxControl1</Property>
+      <Property Name="Size">218, 22</Property>
+      <Property Name="Location">218, 123</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">3</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;2;-4096;4095.875</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">Drehbeschleunigung:</Property>
+      <Property Name="DescriptionSize">99, 18</Property>
+      <Property Name="SymbolConfiguration">6;2;Drehratensensor;;Drehratennachrig_2;Drehbeschleunigung;1;CAN;;-1;;;;</Property>
+      <Property Name="TabIndex">4</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.118.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl2" Children="Controls" ControlName="Input/Output Box 2">
+      <Property Name="Name">TextBoxControl2</Property>
+      <Property Name="Size">218, 22</Property>
+      <Property Name="Location">218, 100</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">3</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Double</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;2;-163.84;163.835</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">Drehgeschwindigkeit:</Property>
+      <Property Name="DescriptionSize">99, 18</Property>
+      <Property Name="SymbolConfiguration">6;2;Drehratensensor;;Drehratennachrig_1;Drehgeschwindigkeit;1;CAN;;-1;;;;</Property>
+      <Property Name="TabIndex">3</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.ProgressBarControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.118.0, Culture=neutral, PublicKeyToken=null" Name="ProgressBarControl2" Children="Controls" ControlName="Progress Bar 2">
+      <Property Name="Name">ProgressBarControl2</Property>
+      <Property Name="Size">26, 182</Property>
+      <Property Name="Location">165, 210</Property>
+      <Property Name="ValueBackColor">192, 80, 77</Property>
+      <Property Name="OriginValue">0</Property>
+      <Property Name="Maximum">4.176618775</Property>
+      <Property Name="Orientation">Vertical</Property>
+      <Property Name="Minimum">-4.1768</Property>
+      <Property Name="DecimalPlaces">9</Property>
+      <Property Name="AlarmUpperLimit">4.176618775</Property>
+      <Property Name="ValueSize">28, 23</Property>
+      <Property Name="SymbolConfiguration">6;2;Drehratensensor;;Drehratennachrig_2;Querbeschleunigung_in_X_Richtung;1;CAN;;-1;;;;</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.ProgressBarControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.118.0, Culture=neutral, PublicKeyToken=null" Name="ProgressBarControl1" Children="Controls" ControlName="Progress Bar 1">
+      <Property Name="Name">ProgressBarControl1</Property>
+      <Property Name="Size">159, 28</Property>
+      <Property Name="Location">218, 281</Property>
+      <Property Name="OriginValue">0</Property>
+      <Property Name="Maximum">4.176618775</Property>
+      <Property Name="Minimum">-4.1768</Property>
+      <Property Name="DecimalPlaces">9</Property>
+      <Property Name="AlarmUpperLimit">4.176618775</Property>
+      <Property Name="ValueSize">28, 23</Property>
+      <Property Name="SymbolConfiguration">6;2;Drehratensensor;;Drehratennachrig_2;Querbeschleunigung_in_X_Richtung;1;CAN;;-1;;;;</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">562, 418</Property>
+    <Property Name="BackColor">White</Property>
+    <Property Name="BorderStyle">Fixed3D</Property>
+  </Object>
+</Panel>
